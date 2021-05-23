@@ -16,3 +16,10 @@ const getBGColor = (selectedElement) => {
 }
 
 console.log(getBGColor(red));
+
+
+var color = getBGColor(blue);
+
+blue.addEventListener("click", () => {
+    center.style.background = color;
+});
